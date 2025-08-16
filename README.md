@@ -43,9 +43,8 @@ sudo python3 -m pip install coercer
 ## Quickstart / Setup
 
 ```bash
-git clone https://github.com/your-org/adcsreaper.git
-cd adcsreaper
-python3 adcsreaper.py -h
+pipx install git+https://github.com/G0urmetD/ADCSReaper.git
+adcsreaper -h
 ```
 
 ## Usage
